@@ -1,7 +1,12 @@
 #include <iostream>
 #include <vector>
-
 using namespace std;
+
+/**
+	Var 17 N 5
+	5. Даны целые числа a1, …, an. Получить новую последовательность
+	из n чисел, заменяя ai нулями, если |ai| не равно max(a1, …, an), и заменяя ai единицей в противном случае (i = 1, …, n).
+*/
 
 void second_5() {
 	vector<int> inv;

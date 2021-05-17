@@ -1,6 +1,13 @@
 #include <iostream>
 using namespace std;
 
+/**
+	Var 17 N 4
+	4. Дана действительная квадратная матрица C порядка 7.
+	Найти последовательность чисел 1 49 b b , ..., , получающуюся при
+	чтении матрицы по спирали, как показано на рис. 1.41(спираль от левого нижнего угла против часовой)
+*/
+
 typedef enum moves {
     m_right,
     m_down,
@@ -80,7 +87,13 @@ void third_4(void) {
 
     /* fill spiral matrix */
 	for (int i = 0; i < n*n; i++) {
-		/* @todo: i fill i may be need fill from console */
+		/** @todo: 
+         * i don't 
+         * I filling i value
+         * may be need fill from console 
+         * or
+         * fill from matrix to array 
+         */
         matrix[y][x] = i;
 		if(next_coords(x, y, d_maxs[imax], directions[idirection])){
             if(imax < (n*2)-1){
