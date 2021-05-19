@@ -2,7 +2,8 @@
 using namespace std;
 
 /**
-	Var 17 N 4
+	Двухмерные массивы
+    Var 17 N 4
 	4. Дана действительная квадратная матрица C порядка 7.
 	Найти последовательность чисел 1 49 b b , ..., , получающуюся при
 	чтении матрицы по спирали, как показано на рис. 1.41(спираль от левого нижнего угла против часовой)
@@ -88,7 +89,7 @@ void third_4(void) {
     /* fill spiral matrix */
 	for (int i = 0; i < n*n; i++) {
 		/** @todo: 
-         * i don't 
+         * i don't understand task
          * I filling i value
          * may be need fill from console 
          * or

@@ -11,5 +11,5 @@ set (CMAKE_RUNTIME_OUTPUT_DIRECTORY "..")
 
 include_directories(${PROJECT_SOURCE_DIR}/include)# Расположение заголовочных файлов
 
-add_executable(Mgoty main.cpp first.cpp second.cpp third.cpp)	# Создает исполняемый файл с именем main
+add_executable(Mgoty main.cpp first.cpp second.cpp third.cpp fiveth.cpp)	# Создает исполняемый файл с именем main
 
